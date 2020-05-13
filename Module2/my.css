@@ -1,0 +1,50 @@
+
+* {
+	box-sizing: border-box;
+	font-family: calibri;
+	
+}
+h2 {
+	text-align: center;
+	padding: 15px
+}
+
+
+.menu-title{
+	background-color: pink;
+	width: 25%;
+	text-align: center;
+	padding: 2px;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	border: 1px solid black;
+}
+
+.menu-des{
+	border: 10px solid white;
+	position: relative;
+	background-color: #d3d3d3;
+	padding: 5px;
+	padding-top: 30px;
+	float: left;
+	width: 100%;
+}
+
+
+/*  @media quesry fo PC 992px and above*/
+	@media (min-width: 992px){
+		.col-lg-4 {
+			width: 33.33%;
+		}
+	}
+	
+/*  @media query for tab min 768 and max 991*/
+	@media (min-width: 768px) and (max-width: 991px){
+
+		.col-md-6 {
+			width: 50%;
+		}
+	}
+
+/*  @media query for Mobile is equal to or less than 767px */
